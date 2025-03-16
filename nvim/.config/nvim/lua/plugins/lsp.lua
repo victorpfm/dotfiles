@@ -25,6 +25,15 @@ return {
       ensure_installed = {},
       automatic_installation = false,
       handlers = {
+        jdtls = function()
+          require("lspconfig").jdtls.setup({
+            -- Your custom nvim-java configuration goes here
+          })
+          require("java").setup({
+            -- Your custom jdtls settings goes here
+          })
+        end,
+
         function(server_name)
           local server = servers[server_name] or {}
           server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})

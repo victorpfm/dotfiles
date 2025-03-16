@@ -21,6 +21,7 @@ require("lazy").setup({
   { import = "plugins.fuzzyfinder" },
   { import = "plugins.autocompletion" },
   { import = "plugins.lazydev" },
+  { import = "plugins.java" },
   { import = "plugins.lsp" },
   { import = "plugins.autoformat" },
   { import = "plugins.gitsigns" },

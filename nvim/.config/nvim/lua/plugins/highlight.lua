@@ -14,6 +14,7 @@ return {
       "query",
       "vim",
       "vimdoc",
+      "java",
     },
     auto_install = true,
     highlight = {

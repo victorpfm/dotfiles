@@ -29,4 +29,5 @@ require("lazy").setup({
   { import = "plugins.autopairs" },
   { import = "plugins.indentline" },
   { import = "plugins.mini" },
+  { import = "plugins.obsidian" },
 })

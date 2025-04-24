@@ -41,4 +41,5 @@ vim.opt.scrolloff = 10
 
 vim.opt.confirm = true
 
+vim.g.netrw_banner = 0
 vim.g.netrw_browse_split = 0
